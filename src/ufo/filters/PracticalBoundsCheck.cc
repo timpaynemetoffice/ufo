@@ -28,8 +28,8 @@ PracticalBoundsCheck::PracticalBoundsCheck(ioda::ObsSpace & obsdb, const Paramet
     parameters_(parameters)
 {
   oops::Log::trace() << "PracticalBoundsCheck contructor starting" << std::endl;
-  //allvars_ += parameters_.ref;
-  //allvars_ += parameters_.val;
+  // allvars_ += parameters_.ref;
+  // allvars_ += parameters_.val;
 }
 
 // -----------------------------------------------------------------------------

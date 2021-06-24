@@ -38,9 +38,9 @@ class PracticalBoundsCheckParameters : public FilterParametersBase {
 
  public:
   /// Name of the reference variable.
-  //oops::RequiredParameter<Variable> ref{"reference", this};
+  // oops::RequiredParameter<Variable> ref{"reference", this};
   /// Name of the test variable.
-  //oops::RequiredParameter<Variable> val{"value", this};
+  // oops::RequiredParameter<Variable> val{"value", this};
   /// The filter will flag observations for which the difference `test - reference` is below
   /// `minvalue`.
   oops::OptionalParameter<float> minvalue{"minvalue", this};
