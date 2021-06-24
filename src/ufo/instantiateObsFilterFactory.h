@@ -137,6 +137,9 @@ template<typename OBS> void instantiateObsFilterFactory() {
            legacyGaussianThinningMaker("Gaussian_Thinning");
   static oops::FilterMaker<OBS, oops::ObsFilter<OBS, ufo::TemporalThinning> >
            legacyTemporalThinningMaker("TemporalThinning");
+
+  static oops::FilterMaker<OBS, oops::ObsFilter<OBS, ufo::PracticalBoundsCheck> >
+         practicalBoundsCheckMaker("Practical Bounds Check");
 }
 
 }  // namespace ufo
