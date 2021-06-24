@@ -8,7 +8,7 @@ observations:
       obsfile: Data/ufo/testinput_tier_1/filters_testdata.nc4
     simulated variables: [variable1, variable2, variable3]
   obs filters:
-  - filter: Bounds Check        # test min/max value with all variables
+  - filter: Practical Bounds Check        # test min/max value with all variables
     filter variables:
     - name: variable1
     - name: variable2
@@ -27,7 +27,7 @@ observations:
       obsfile: Data/ufo/testinput_tier_1/filters_testdata.nc4
     simulated variables: [variable1, variable2, variable3]
   obs filters:
-  - filter: Bounds Check        # test min/max value with all variables
+  - filter: Practical Bounds Check        # test min/max value with all variables
     filter variables:
     - name: variable2
     - name: variable3
